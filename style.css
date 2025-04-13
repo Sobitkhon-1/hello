@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #202124;
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4285f4;
+    margin-right: 20px;
+  }
+  
+  .search-box {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 24px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.35);
+  }
+  
+  .profile {
+    background: green;
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .nav-tabs {
+    display: flex;
+    gap: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .nav-tabs a {
+    text-decoration: none;
+    color: #5f6368;
+    padding: 5px 10px;
+  }
+  
+  .nav-tabs a.active {
+    border-bottom: 2px solid #1a73e8;
+    color: #1a73e8;
+  }
+  
+  .main-content {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .left-section {
+    flex: 2;
+    padding-right: 20px;
+  }
+  
+  .right-section {
+    flex: 1;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .search-result .source {
+    font-size: 13px;
+    color: #202124;
+  }
+  
+  .search-result h2 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .search-result h2 a {
+    color: #1a0dab;
+    text-decoration: none;
+  }
+  
+  .search-result p {
+    font-size: 14px;
+    color: #4d5156;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  
+  .tags span {
+    background: #e8f0fe;
+    color: #1967d2;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+  }
+  
+  .video-header {
+    margin-top: 30px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  .video-result {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .video-result img {
+    width: 120px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .adele-img {
+    width: 100%;
+    border-radius: 6px;
+    margin: 10px 0;
+  }
+  
+  .lyrics {
+    font-size: 14px;
+    color: #3c4043;
+  }
+  
